@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Del Trazo al Objeto | Diseños para tatuajes, ropa, tazas y 3D</title>
+  <meta name="description"
+    content="Diseños originales para tatuajes, ropa, tazas, objetos personalizados y figuras 3D. Portfolio visual accesible mediante QR." />
+  <meta name="theme-color" content="#111111" />
+  <meta property="og:title" content="Del Trazo al Objeto" />
+  <meta property="og:description" content="Diseños para llevar en la piel, vestir, regalar o coleccionar." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Inicio">
+      <span class="brand-mark"><img src="https://i.postimg.cc/ZKL393VG/logo-ZD.png" alt="" srcset=""></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="#categorias">Categorías</a>
+      <a href="#galeria">Galería</a>
+      <a href="#encargos">Encargos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a class="nav-cta" href="#contacto">Contactar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-padding">
+      <div class="hero-content reveal">
+        <img class="logo-portada" src="assets/img/ZADESIGN_16_9.png" alt="" srcset="">
+        <h1>Diseños para llevar en la piel, vestir, regalar o coleccionar.</h1>
+        <p class="hero-subtitle">Ilustraciones originales adaptadas a tatuajes, ropa, tazas, objetos personalizados y
+          figuras 3D.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#galeria">Ver diseños</a>
+          <a class="button secondary" href="#contacto">Pedir un encargo</a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Collage de diseños">
+        <div class="art-card art-card-large">
+          <a href="#galeria" data-filter-link="tatuajes">
+            <img src="assets/img/Tatuaje_1.png" alt="Diseño lineal para tatuaje" />
+            <span>Tatuaje</span>
+          </a>
+        </div>
+        <div class="art-card">
+          <a href="#galeria" data-filter-link="ropa">
+            <img src="assets/img/Camiseta_1.png" alt="Diseño para ropa" />
+            <span>Ropa</span>
+          </a>
+        </div>
+        <div class="art-card">
+          <a href="#galeria" data-filter-link="tazas">
+            <img src="assets/img/Taza_1.png" alt="Diseño para taza" />
+            <span>Tazas</span>
+          </a>
+        </div>
+        <div class="art-card art-card-wide">
+          <a href="#galeria" data-filter-link="3d">
+            <img src="assets/img/design-3d.svg" alt="Figura 3D" />
+            <span>Figuras 3D</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section-padding" id="galeria">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Últimos diseños</p>
+        <h2>Galería destacada</h2>
+        <p>Sustituye estas piezas de muestra por tus diseños reales. La galería ya incluye filtros por categoría.</p>
+      </div>
+      <div class="filters reveal" role="list" aria-label="Filtros de galería">
+        <button class="filter active" data-filter="todos">Todos</button>
+        <button class="filter" data-filter="tatuajes">Tatuajes</button>
+        <button class="filter" data-filter="ropa">Ropa</button>
+        <button class="filter" data-filter="tazas">Tazas</button>
+        <button class="filter" data-filter="3d">Figuras 3D</button>
+      </div>
+      <div class="gallery-grid">
+        <article class="design-card reveal" data-category="tatuajes">
+          <img src="assets/img/design-tattoo.svg" alt="Diseño para tatuaje" />
+          <div class="design-info">
+            <span>Tatuaje · Disponible</span>
+            <h3>Dragón lineal</h3>
+            <p>Diseño adaptable a brazo, antebrazo o espalda.</p>
+          </div>
+        </article>
+        <article class="design-card reveal" data-category="ropa">
+          <img src="assets/img/design-shirt.svg" alt="Diseño para camiseta" />
+          <div class="design-info">
+            <span>Ropa · Mockup</span>
+            <h3>Camiseta símbolo</h3>
+            <p>Gráfico frontal para camiseta o sudadera.</p>
+          </div>
+        </article>
+        <article class="design-card reveal" data-category="tazas">
+          <img src="assets/img/design-mug.svg" alt="Diseño para taza" />
+          <div class="design-info">
+            <span>Taza · Regalo</span>
+            <h3>Objeto cotidiano</h3>
+            <p>Ilustración preparada para impresión envolvente.</p>
+          </div>
+        </article>
+        <article class="design-card reveal" data-category="3d">
+          <img src="assets/img/design-3d.svg" alt="Figura 3D" />
+          <div class="design-info">
+            <span>3D · Prototipo</span>
+            <h3>Figura coleccionable</h3>
+            <p>Concepto transformado en pieza volumétrica.</p>
+          </div>
+        </article>
+        <article class="design-card reveal" data-category="tatuajes">
+          <img src="assets/img/design-symbol.svg" alt="Símbolo ornamental" />
+          <div class="design-info">
+            <span>Tatuaje · Ornamental</span>
+            <h3>Símbolo oscuro</h3>
+            <p>Pieza compacta para adaptar a varias zonas.</p>
+          </div>
+        </article>
+        <article class="design-card reveal" data-category="ropa">
+          <img src="assets/img/design-print.svg" alt="Estampado textil" />
+          <div class="design-info">
+            <span>Ropa · Estampado</span>
+            <h3>Gráfico espalda</h3>
+            <p>Diseño con impacto para prendas oscuras.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section-padding" id="encargos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Encargos personalizados</p>
+        <h2>Convierte tu idea en un diseño.</h2>
+        <p>Un proceso simple para transformar referencias, conceptos o bocetos en piezas listas para el formato que
+          necesitas.</p>
+      </div>
+      <div class="steps">
+        <article class="step reveal">
+          <span>01</span>
+          <h3>Me cuentas la idea</h3>
+          <p>Formato, estilo, referencias, tamaño y objetivo del diseño.</p>
+        </article>
+        <article class="step reveal">
+          <span>02</span>
+          <h3>Definimos el enfoque</h3>
+          <p>Decidimos si será para piel, textil, taza, objeto o 3D.</p>
+        </article>
+        <article class="step reveal">
+          <span>03</span>
+          <h3>Desarrollo la pieza</h3>
+          <p>Creo la propuesta visual y ajustamos los detalles necesarios.</p>
+        </article>
+        <article class="step reveal">
+          <span>04</span>
+          <h3>Recibes el archivo final</h3>
+          <p>Entrega preparada para el uso acordado.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-padding" id="sobre-mi">
+      <div class="about-card reveal">
+        <div>
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Diseño gráfico, software y experimentación visual.</h2>
+        </div>
+        <p>Soy diseñador gráfico y desarrollador de software. Creo diseños visuales que pueden vivir en distintos
+          soportes: piel, ropa, objetos, tazas y piezas 3D. Me interesa transformar ideas en imágenes con carácter y
+          preparar cada pieza para que funcione en su formato final.</p>
+      </div>
+    </section>
+
+    <section class="contact section-padding" id="contacto">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>¿Tienes una idea?</h2>
+        <p>Escríbeme y vemos cómo convertirla en diseño.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:tu-email@ejemplo.com?subject=Encargo%20de%20dise%C3%B1o">Email</a>
+          <a class="button secondary" href="https://wa.me/34000000000" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a class="button ghost" href="https://www.instagram.com/tu_usuario" target="_blank"
+            rel="noreferrer">Instagram</a>
+        </div>
+        <p class="small-note">Edita estos enlaces en <code>index.html</code> con tu email, WhatsApp e Instagram reales.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-cta" href="#contacto">Pedir diseño</a>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> ZADESIGN. Diseños para piel, ropa, objetos y 3D.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
